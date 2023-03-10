@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+    <meta charset="UTF-8" />
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="boards">
+        <div class="board red"> 
+         <button class="control-button" id="minusBtn"><span class="iconify" data-icon="ic:round-minus" ></span></button>
+          <div class="score" id="score1">0</div>
+          <button class="control-button" id="addBtn"><span class="iconify" data-icon="material-symbols:add" ></span></button>
+        </div>
+        <div class="board blue"> 
+          <button class="control-button" id="minusBtn"><span class="iconify" data-icon="ic:round-minus" ></span></button>
+           <div class="score" id="score2">0</div>
+           <button class="control-button" id="addBtn"><span class="iconify" data-icon="material-symbols:add" ></span></button>
+         </div>
+         <div class="board yellow"> 
+          <button class="control-button" id="minusBtn"><span class="iconify" data-icon="ic:round-minus" ></span></button>
+           <div class="score" id="score3">0</div>
+           <button class="control-button" id="addBtn"><span class="iconify" data-icon="material-symbols:add" ></span></button>
+         </div>
+         <div class="board green"> 
+          <button class="control-button" id="minusBtn"><span class="iconify" data-icon="ic:round-minus" ></span></button>
+           <div class="score" id="score4">0</div>
+           <button class="control-button" id="addBtn"><span class="iconify" data-icon="material-symbols:add" ></span></button>
+         </div>
+         <div class="board black"> 
+          <button class="control-button" id="minusBtn"><span class="iconify" data-icon="ic:round-minus" ></span></button>
+           <div class="score" id="score5">0</div>
+           <button class="control-button" id="addBtn"><span class="iconify" data-icon="material-symbols:add" ></span></button>
+         </div>
+         <div class="board orange" > 
+          <button class="control-button" id="minusBtn"><span class="iconify" data-icon="ic:round-minus" ></span></button>
+           <div class="score" id="score6">0</div>
+           <button class="control-button" id="addBtn"><span class="iconify" data-icon="material-symbols:add" ></span></button>
+         </div>
+      </div>
+      <div class="control-panel"> 
+        <div class="cp-board-buttons">
+        <button class="cp-board-button red"></button>
+        <button class="cp-board-button blue"></button>
+        <button class="cp-board-button yellow"></button>
+        <button class="cp-board-button green"></button>
+        <button class="cp-board-button black"></button>
+        <button class="cp-board-button orange"></button>
+      </div>
+      <div class="show-reset-buttons">
+        <button class="cp-button" id="clear_all">Clear all</button>
+        <button class="cp-button" id="reset_all">Reset all</button>
+      </div>
+      </div>
+      </div>
+    <script src="index.js"></script>
+  </body>
+</html>
